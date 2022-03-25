@@ -1,0 +1,66 @@
+.heading{ 
+    margin-top:55px;
+    h1{
+    font-family: ProximaNovaECT;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+hr{
+    width:199px;
+}}
+
+.offers{
+
+   margin-top:35px;
+    max-width:610px;
+    .offer{
+        max-height:287px;
+        display:flex;
+        font-family: ProximaNovaECT;
+        margin-bottom: 60px;
+
+        span{
+            font-family: ProximaNovaECT;
+            &:nth-child(1){
+                font-size: 30px;
+                letter-spacing: 3px;
+            }
+            &:nth-child(2){
+                font-size: 20px;
+                color:red;
+
+            }
+        }
+        .offer-one-image{
+            margin-right:20px;
+        }
+
+        .offer-two-image{
+            padding-bottom:100px;
+            margin-right:20px;
+
+        }
+        .offer-two-text{
+            padding-bottom:100px;
+        }
+
+        h1{
+            font-size: 30px;
+            margin-bottom:0px;
+        }
+        a{
+            @include site-button();
+            border-radius:10px;
+            padding-bottom:10px;
+        }
+        p{
+            font-family:GillSansUB;
+            font-size: 16px;
+        }
+        hr{
+            width:196px;
+        }
+        
+    
+}
+}
