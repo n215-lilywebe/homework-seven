@@ -64,3 +64,21 @@ hr{
     
 }
 }
+@media screen and (max-width:1300px){
+    .offers{
+        margin:0 auto;
+    }
+
+    .heading{
+        text-align:center;
+        margin-bottom:40px;
+
+        h1{
+            margin-bottom:5px;
+        }
+        hr{
+            margin: 0 auto;
+            width:250px;
+        }
+    }
+}

@@ -1728,6 +1728,23 @@ nav .links a {
   width: 196px;
 }
 
+@media screen and (max-width: 1300px) {
+  .offers {
+    margin: 0 auto;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .heading h1 {
+    margin-bottom: 5px;
+  }
+  .heading hr {
+    margin: 0 auto;
+    width: 250px;
+  }
+}
 .posts {
   font-family: GillSansUB;
 }
@@ -1772,6 +1789,24 @@ nav .links a {
   width: 106px;
 }
 
+@media screen and (max-width: 1300px) {
+  .posts {
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+  .posts .post .date {
+    margin-right: 10px;
+  }
+  .posts img {
+    max-width: 90%;
+  }
+
+  .blog-heading {
+    max-width: 90%;
+    margin-left: 20px;
+  }
+}
 .contact-page {
   display: flex;
   flex-wrap: wrap;
@@ -1827,6 +1862,18 @@ nav .links a {
   height: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-page {
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+  .contact-page .right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

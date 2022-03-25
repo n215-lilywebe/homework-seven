@@ -46,3 +46,24 @@
         width:106px;
     }
 }
+@media screen and (max-width:1300px){
+    .posts{
+        max-width: 90%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+
+        .post{
+            .date{
+                margin-right:10px;
+            }
+        }
+
+        img{
+            max-width:90%;
+        }
+    }
+.blog-heading{
+    max-width:90%;
+    margin-left:20px;
+}
+}
